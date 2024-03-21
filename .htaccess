@@ -1,0 +1,4 @@
+# Example of setting expire headers in .htaccess
+<FilesMatch "\.(jpg|jpeg|png|gif|js|css)$">
+    Header set Cache-Control "max-age=604800, public"
+</FilesMatch>

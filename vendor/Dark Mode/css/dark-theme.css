@@ -1,0 +1,169 @@
+/* Full Web Page */
+[data-theme="dark"] {
+  background-color: #18191a;
+  color: #eee;
+}
+
+[data-theme="dark"] .lborder {
+  background-color: #bbb9ba;
+}
+
+/* heading */
+[data-theme="dark"] .heading {
+  color: #ffffff;
+}
+
+/* Navigation Dark Color */
+
+[data-theme="dark"] .navbar.sticky {
+  background-color: #0b1120 !important;
+  border-bottom: 1px solid #94a3b86c;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+}
+[data-theme="dark"] .nav-link {
+  color: #94a3b8;
+}
+[data-theme="dark"] .nav-link:focus,
+[data-theme="dark"] .nav-link:hover {
+  background-color: #7c93b7;
+}
+[data-theme="dark"] .navbar-nav .nav-link.active,
+[data-theme="dark"] .navbar-nav .nav-link.show {
+  background-color: #7c93b7;
+}
+
+[data-theme="dark"] .hamburger {
+  background: #f8f9fa;
+}
+[data-theme="dark"] .hamburger::before,
+[data-theme="dark"] .hamburger::after {
+  background: #f8f9fa;
+}
+
+/* Hero Section Dark Color */
+[data-theme="dark"] #hero .hero-pattern {
+  opacity: 0.05;
+}
+[data-theme="dark"] .hero_title {
+  color: #eee;
+}
+[data-theme="dark"] .hero_span {
+  color: #181a1b !important;
+}
+
+[data-theme="dark"] .animate,
+[data-theme="dark"] .typed-cursor {
+  color: #eee;
+}
+
+/* about Section */
+[data-theme="dark"] #about .aboutImgGroup .imgBox {
+  border: 3px solid #bbb9ba;
+}
+[data-theme="dark"] #about .aboutImgGroup .imgBackBox {
+  background-color: #444e79;
+  border: 3px solid #bbb9ba;
+}
+[data-theme="dark"] .socialIcon ul li a {
+  background-color: #444e79;
+  border: 1px solid #f2f8f57a;
+}
+[data-theme="dark"] .socialIcon ul li a:hover {
+  background-color: #34245a;
+}
+[data-theme="dark"] .socialIcon ul li a i {
+  color: #f2f8f5;
+}
+[data-theme="dark"] .socialIcon ul li a i:hover {
+  color: #f2f8f5;
+}
+
+/* service section */
+[data-theme="dark"] #services .serviceItem .icon i {
+  color: #648cc2;
+}
+[data-theme="dark"] #services .serviceItem {
+  background-color: #161e27;
+  border: 1px solid #303338;
+}
+
+/* Team Section */
+[data-theme="dark"] .swiper-pagination-bullet {
+  background: #f2f8f5;
+}
+[data-theme="dark"] .teamItem {
+  background-color: #161e27;
+  border: 1px solid #303338;
+}
+[data-theme="dark"] .teamItem .content span {
+  color: #d7e4dd;
+}
+
+/* testimonials Section */
+[data-theme="dark"] .testimonial-item {
+  background-color: #161e27;
+  border: 1px solid #303338;
+}
+[data-theme="dark"] .testimonial-item .user .profile .details h3 {
+  color: #e9f2ff;
+}
+[data-theme="dark"] .testimonial-item .user .profile .details span {
+  color: #949daf;
+}
+[data-theme="dark"] .testimonial-item .testimonial-message .quote i {
+  color: #334353;
+}
+
+/* Blog Section */
+[data-theme="dark"] .postItem {
+  border: 2px solid #505f61;
+}
+[data-theme="dark"] #blog .postItem .content {
+  background-color: #1f3133;
+}
+[data-theme="dark"] #blog .postItem.big .content h2 a,
+[data-theme="dark"] #blog .postItem .content h2 a {
+  color: #ffffff;
+}
+[data-theme="dark"] #blog .postItem:hover .content h2 a {
+  color: #148dff;
+}
+
+/* Contact Section */
+
+[data-theme="dark"] .form-control {
+  color: #f2f8f5;
+  background-color: #2b364123;
+  border-bottom: 2px solid #74859c;
+}
+[data-theme="dark"] .form-control:focus {
+  color: #f2f8f5;
+  background-color: #2b364170;
+  border-bottom: 2px solid #167ccf;
+}
+[data-theme="dark"] .form-control::placeholder {
+  color: #f2f8f565;
+  opacity: 1; /* Firefox */
+}
+
+/* Footer Section */
+[data-theme="dark"] #footer {
+  background: #18191a;
+}
+
+/* Scroll to Top */
+[data-theme="dark"] .scrollIcon {
+  background-color: #343638;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+}
+[data-theme="dark"] .scrollIcon:hover {
+  background-color: #ff0157;
+}
+[data-theme="dark"] .scrollIcon .icon {
+  font-size: 1em;
+  color: #eee;
+}
+[data-theme="dark"] .scrollIcon:hover .icon {
+  color: #fff;
+}
